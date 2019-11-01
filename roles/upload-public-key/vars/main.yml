@@ -1,0 +1,3 @@
+---
+# vars file for upload-public-key
+aws_key_name: "{{ app_name }}-key"

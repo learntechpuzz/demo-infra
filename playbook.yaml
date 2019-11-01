@@ -1,0 +1,14 @@
+-
+  name: Setup infra
+  hosts: localhost
+  roles:
+    - create-security-group
+    - upload-public-key
+    - create-ec2
+
+-
+  name: Deploy demoapp
+  hosts: launched
+  remote_user: ec2-user
+  roles:
+    - install-httpd

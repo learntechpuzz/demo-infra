@@ -1,0 +1,3 @@
+---
+# vars file for create-ec2
+ec2_image: ami-00eb20669e0990cb4
